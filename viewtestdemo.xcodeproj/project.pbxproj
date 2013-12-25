@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E03DB9715DC85C100A116F1 /* NavSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E03DB9515DC85C100A116F1 /* NavSubViewController.m */; };
+		7E03DB9815DC85C100A116F1 /* NavSubViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E03DB9615DC85C100A116F1 /* NavSubViewController.xib */; };
 		7E82F09115BCFA36007BE69F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E82F09015BCFA36007BE69F /* UIKit.framework */; };
 		7E82F09315BCFA36007BE69F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E82F09215BCFA36007BE69F /* Foundation.framework */; };
 		7E82F09515BCFA36007BE69F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E82F09415BCFA36007BE69F /* CoreGraphics.framework */; };
@@ -14,23 +16,40 @@
 		7E82F09D15BCFA36007BE69F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E82F09C15BCFA36007BE69F /* main.m */; };
 		7E82F0A115BCFA36007BE69F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E82F0A015BCFA36007BE69F /* AppDelegate.m */; };
 		7E82F0A415BCFA36007BE69F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E82F0A215BCFA36007BE69F /* MainStoryboard.storyboard */; };
-		7E82F0A715BCFA36007BE69F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E82F0A615BCFA36007BE69F /* ViewController.m */; };
+		7E82F0B715BD34E5007BE69F /* Item1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E82F0B615BD34E5007BE69F /* Item1ViewController.m */; };
+		7E82F0BA15BD3E93007BE69F /* Item2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E82F0B915BD3E93007BE69F /* Item2ViewController.m */; };
+		7E82F0BD15BD433C007BE69F /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E82F0BC15BD433C007BE69F /* TabBarViewController.m */; };
+		7E82F0BF15BD48A8007BE69F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E82F0BE15BD48A8007BE69F /* QuartzCore.framework */; };
+		7EA8552615DC9CC600DA1266 /* NavRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA8552515DC9CC600DA1266 /* NavRootViewController.m */; };
+		7EFB25E615C0E34B0031C740 /* TableListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFB25E515C0E34B0031C740 /* TableListController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E03DB9415DC85C100A116F1 /* NavSubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavSubViewController.h; sourceTree = "<group>"; };
+		7E03DB9515DC85C100A116F1 /* NavSubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavSubViewController.m; sourceTree = "<group>"; };
+		7E03DB9615DC85C100A116F1 /* NavSubViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavSubViewController.xib; sourceTree = "<group>"; };
 		7E82F08C15BCFA36007BE69F /* viewtestdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viewtestdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E82F09015BCFA36007BE69F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7E82F09215BCFA36007BE69F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7E82F09415BCFA36007BE69F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7E82F09815BCFA36007BE69F /* viewtestdemo-Info.plist */ = {isa = PBXFileReference; path = "viewtestdemo-Info.plist"; sourceTree = "<group>"; };
+		7E82F09815BCFA36007BE69F /* viewtestdemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "viewtestdemo-Info.plist"; sourceTree = "<group>"; };
 		7E82F09A15BCFA36007BE69F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7E82F09C15BCFA36007BE69F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7E82F09E15BCFA36007BE69F /* viewtestdemo-Prefix.pch */ = {isa = PBXFileReference; path = "viewtestdemo-Prefix.pch"; sourceTree = "<group>"; };
-		7E82F09F15BCFA36007BE69F /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E82F09E15BCFA36007BE69F /* viewtestdemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "viewtestdemo-Prefix.pch"; sourceTree = "<group>"; };
+		7E82F09F15BCFA36007BE69F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7E82F0A015BCFA36007BE69F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7E82F0A315BCFA36007BE69F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		7E82F0A515BCFA36007BE69F /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		7E82F0A615BCFA36007BE69F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E82F0B515BD34E5007BE69F /* Item1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item1ViewController.h; sourceTree = "<group>"; };
+		7E82F0B615BD34E5007BE69F /* Item1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item1ViewController.m; sourceTree = "<group>"; };
+		7E82F0B815BD3E93007BE69F /* Item2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item2ViewController.h; sourceTree = "<group>"; };
+		7E82F0B915BD3E93007BE69F /* Item2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item2ViewController.m; sourceTree = "<group>"; };
+		7E82F0BB15BD433C007BE69F /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		7E82F0BC15BD433C007BE69F /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		7E82F0BE15BD48A8007BE69F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7EA8552415DC9CC600DA1266 /* NavRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavRootViewController.h; path = ../NavRootViewController.h; sourceTree = "<group>"; };
+		7EA8552515DC9CC600DA1266 /* NavRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NavRootViewController.m; path = ../NavRootViewController.m; sourceTree = "<group>"; };
+		7EFB25E415C0E34B0031C740 /* TableListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableListController.h; sourceTree = "<group>"; };
+		7EFB25E515C0E34B0031C740 /* TableListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableListController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E82F0BF15BD48A8007BE69F /* QuartzCore.framework in Frameworks */,
 				7E82F09115BCFA36007BE69F /* UIKit.framework in Frameworks */,
 				7E82F09315BCFA36007BE69F /* Foundation.framework in Frameworks */,
 				7E82F09515BCFA36007BE69F /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +70,7 @@
 		7E82F08115BCFA36007BE69F = {
 			isa = PBXGroup;
 			children = (
+				7E82F0BE15BD48A8007BE69F /* QuartzCore.framework */,
 				7E82F09615BCFA36007BE69F /* viewtestdemo */,
 				7E82F08F15BCFA36007BE69F /* Frameworks */,
 				7E82F08D15BCFA36007BE69F /* Products */,
@@ -80,9 +101,20 @@
 				7E82F09F15BCFA36007BE69F /* AppDelegate.h */,
 				7E82F0A015BCFA36007BE69F /* AppDelegate.m */,
 				7E82F0A215BCFA36007BE69F /* MainStoryboard.storyboard */,
-				7E82F0A515BCFA36007BE69F /* ViewController.h */,
-				7E82F0A615BCFA36007BE69F /* ViewController.m */,
 				7E82F09715BCFA36007BE69F /* Supporting Files */,
+				7E82F0B515BD34E5007BE69F /* Item1ViewController.h */,
+				7E82F0B615BD34E5007BE69F /* Item1ViewController.m */,
+				7E82F0B815BD3E93007BE69F /* Item2ViewController.h */,
+				7E82F0B915BD3E93007BE69F /* Item2ViewController.m */,
+				7E82F0BB15BD433C007BE69F /* TabBarViewController.h */,
+				7E82F0BC15BD433C007BE69F /* TabBarViewController.m */,
+				7EFB25E415C0E34B0031C740 /* TableListController.h */,
+				7EFB25E515C0E34B0031C740 /* TableListController.m */,
+				7EA8552415DC9CC600DA1266 /* NavRootViewController.h */,
+				7EA8552515DC9CC600DA1266 /* NavRootViewController.m */,
+				7E03DB9415DC85C100A116F1 /* NavSubViewController.h */,
+				7E03DB9515DC85C100A116F1 /* NavSubViewController.m */,
+				7E03DB9615DC85C100A116F1 /* NavSubViewController.xib */,
 			);
 			path = viewtestdemo;
 			sourceTree = "<group>";
@@ -150,6 +182,7 @@
 			files = (
 				7E82F09B15BCFA36007BE69F /* InfoPlist.strings in Resources */,
 				7E82F0A415BCFA36007BE69F /* MainStoryboard.storyboard in Resources */,
+				7E03DB9815DC85C100A116F1 /* NavSubViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,7 +195,12 @@
 			files = (
 				7E82F09D15BCFA36007BE69F /* main.m in Sources */,
 				7E82F0A115BCFA36007BE69F /* AppDelegate.m in Sources */,
-				7E82F0A715BCFA36007BE69F /* ViewController.m in Sources */,
+				7E82F0B715BD34E5007BE69F /* Item1ViewController.m in Sources */,
+				7E82F0BA15BD3E93007BE69F /* Item2ViewController.m in Sources */,
+				7E82F0BD15BD433C007BE69F /* TabBarViewController.m in Sources */,
+				7EFB25E615C0E34B0031C740 /* TableListController.m in Sources */,
+				7E03DB9715DC85C100A116F1 /* NavSubViewController.m in Sources */,
+				7EA8552615DC9CC600DA1266 /* NavRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +312,7 @@
 				7E82F0AC15BCFA36007BE69F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
